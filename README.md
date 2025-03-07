@@ -39,4 +39,4 @@ Buy Now on UI8
 This demo is licensed under the MIT License.
 
 ## Contact
-For questions or support, reach out via GitHub Issues or email me at wuttikan_s@cmu.ac.th.
+For questions or support, reach out via GitHub Issues or email me at wutthikan_s@cmu.ac.th.
