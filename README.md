@@ -8,7 +8,8 @@ Responsive Design: Split layout with a decorative text panel and form panel.
 Lightweight: Minimal dependencies, using custom CSS and vanilla JavaScript.
 
 ## Demo
-Below is a screenshot of the demo in action:
+![Demo Screenshot](demo-image/loginpage.png)
+![Demo Screenshot](demo-image/registerpage.png)
 
 Linux / macOS
 ```bash
