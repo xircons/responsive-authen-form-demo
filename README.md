@@ -2,10 +2,10 @@
 This repository contains a demo of a simple, responsive authentication interface featuring a login and registration form. Built with HTML, CSS, and JavaScript
 
 ## Features
-Login Form: Username and password input with required field validation.
-Registration Form: Username, password, and confirm password fields with password matching validation.
-Responsive Design: Split layout with a decorative text panel and form panel.
-Lightweight: Minimal dependencies, using custom CSS and vanilla JavaScript.
+- Login Form: Username and password input field.
+- Registration Form: Username, password, and confirm password fields.
+- Responsive Design: Split layout with a decorative text panel and form panel.
+- Lightweight: Minimal dependencies, using custom CSS and JavaScript.
 
 ## Demo
 ![Demo Screenshot](demo-image/loginpage.png)
