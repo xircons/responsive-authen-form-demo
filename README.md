@@ -25,13 +25,14 @@ git clone https://github.com/xircons/responsive-authen-form-demo
 
 # Full Version (Premium)
 Want more features? The premium version includes:
-
 - Dark/Light mode toggle
 - Social login integration (Google & Apple)
+- Validation fields
+- Password and Confirm password validation
 - Enhanced form validation with real-time feedback
 - Responsive design across all screen sizes
 - Additional UI enhancements
-- Purchase the full version on UI8 for Linux and macOS:
+- Purchase the full version on UI8:
 
 Buy Now on UI8
 
