@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --bg-color: #f0f0f0;
+    --form-bg: #ffffff;
+    --text-color: #141414;
+    --input-border: #ecedec;
+    --button-bg: #141414;
+    --button-text: #ffffff;
+    --link-color: #305CDE;
+    --split-bg: #141414;
+    --split-text: #ffffff;
+}
+
+body {
+    font-family: "Montserrat", serif;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    min-height: 100vh;
+    background-color: var(--bg-color);
+}
+
+.reg-left {
+    background-color: var(--form-bg);
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reg-right {
+    font-family: "Monsieur La Doulaise", serif;
+    color: var(--split-text);
+    font-size: 5vw;
+    background-color: var(--split-bg);
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.log-left {
+    font-family: "Monsieur La Doulaise", serif;
+    color: var(--split-text);
+    font-size: 5vw;
+    background-color: var(--split-bg);
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.log-right {
+    background-color: var(--form-bg);
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--form-bg);
+    padding: 30px;
+    width: 25vw;
+    border-radius: 20px;
+}
+
+.heading {
+    font-family: "Monsieur La Doulaise", serif;
+    text-align: center;
+    color: var(--text-color);
+    font-size: 5vw;
+    margin: 0 0 10px 0;
+}
+
+::placeholder {
+    font-size: 1vw;
+    font-family: "Montserrat", serif;
+    color: var(--text-color);
+    opacity: 0.7;
+}
+
+.flex-column > label {
+    color: var(--text-color);
+    font-size: 1vw;
+    font-weight: 600;
+}
+
+.inputForm {
+    border: 1.5px solid var(--input-border);
+    border-radius: 10px;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.input {
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 90%;
+    height: 90%;
+    font-size: 1vw;
+    font-family: "Montserrat", serif;
+    background: transparent;
+    color: var(--text-color);
+}
+
+.input:focus {
+    outline: none;
+}
+
+.inputForm:focus-within {
+    border: 1.5px solid var(--link-color);
+}
+
+.button-submit {
+    margin: 20px 0 10px 0;
+    background-color: var(--button-bg);
+    border: none;
+    color: var(--button-text);
+    font-size: 1vw;
+    font-weight: 500;
+    border-radius: 10px;
+    height: 5.5vh;
+    width: 25vw;
+    cursor: pointer;
+}
+
+.p {
+    text-align: center;
+    color: var(--text-color);
+    font-size: 0.9vw;
+    margin: 5px 0;
+}
+
+.a {
+    font-size: 0.9vw;
+    color: var(--link-color);
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
