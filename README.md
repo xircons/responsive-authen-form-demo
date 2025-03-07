@@ -10,6 +10,9 @@ Lightweight: Minimal dependencies, using custom CSS and vanilla JavaScript.
 ## Demo
 ![Demo Screenshot](demo-image/loginpage.png)
 ![Demo Screenshot](demo-image/registerpage.png)
+```bash
+https://xircons.github.io/responsive-authen-form-demo/login.html
+```
 
 Linux / macOS
 ```bash
